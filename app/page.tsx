@@ -1,3 +1,5 @@
+'use client';
+
 import { AnimatePresence, motion } from 'framer-motion';
 import HeroSection from '@/components/HeroSection';
 import StatsSection from '@/components/StatsSection';
@@ -8,6 +10,13 @@ import InstructorSection from '@/components/InstructorSection';
 import AiTutorSection from '@/components/AiTutorSection';
 import FaqSection from '@/components/FaqSection';
 import Footer from '@/components/Footer';
+import CurriculumExplorer from '@/components/CurriculumExplorer';
+import HouseSimulator from '@/components/HouseSimulator';
+import DiagramViewer from '@/components/diagramViewer';
+import ToolLibrary from '@/components/ToolLibrary';
+import PpeLibrary from '@/components/PpeLibrary';
+import AssessmentPreview from '@/components/AssessmentPreview';
+import StudentJourney from '@/components/StudentJourney';
 
 export default function HomePage() {
   return (
@@ -22,8 +31,17 @@ export default function HomePage() {
         <HeroSection />
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <StatsSection />
+          <CurriculumExplorer />
           <ModulesSection />
           <CertificationSection />
+          <div className="mt-16 grid gap-8 xl:grid-cols-2">
+            <HouseSimulator />
+            <DiagramViewer />
+          </div>
+          <ToolLibrary />
+          <PpeLibrary />
+          <AssessmentPreview />
+          <StudentJourney />
           <TestimonialsSection />
           <InstructorSection />
           <AiTutorSection />

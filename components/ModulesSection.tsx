@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import SectionHeading from '@/components/SectionHeading';
 import { modules } from '@/lib/courseData';
