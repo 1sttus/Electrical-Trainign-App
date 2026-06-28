@@ -7,17 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        electric: '#0EA5E9',
-        navy: '#020617',
-        orange: '#F97316',
-        emerald: '#10B981',
+        electric: '#0066FF',
+        navy: '#081B33',
+        orange: '#FF8C00',
+        emerald: '#00C853',
         glass: 'rgba(255,255,255,0.12)',
       },
       boxShadow: {
-        glow: '0 25px 80px rgba(14, 165, 233, 0.16)',
+        glow: '0 25px 80px rgba(0, 102, 255, 0.16)',
       },
       backgroundImage: {
-        'electrical-grid': 'radial-gradient(circle at top left, rgba(14,165,233,0.16), transparent 24%), radial-gradient(circle at bottom right, rgba(16,185,129,0.14), transparent 20%)',
+        'electrical-grid': 'radial-gradient(circle at top left, rgba(0,102,255,0.16), transparent 24%), radial-gradient(circle at bottom right, rgba(0,200,83,0.14), transparent 20%)',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
